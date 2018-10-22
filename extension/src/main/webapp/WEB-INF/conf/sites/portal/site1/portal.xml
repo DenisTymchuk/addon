@@ -1,0 +1,17 @@
+<portal-config>
+    <portal-name>site1</portal-name>
+    <locale>en</locale>
+    <access-permissions>*:/platform/users</access-permissions>
+    <edit-permission>*:/platform/administrators</edit-permission>
+
+    <properties>
+        <entry key="sessionAlive">onDemand</entry>
+        <entry key="showPortletInfo">0</entry>
+    </properties>
+
+    <portal-layout>
+        <move-apps-permissions>manager:/platform/administrators</move-apps-permissions>
+        <move-containers-permissions>manager:/platform/administrators</move-containers-permissions>
+        <page-body> </page-body>
+    </portal-layout>
+</portal-config>
