@@ -5,17 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.exoplatform.samples</groupId>
-        <artifactId>addon-template</artifactId>
+        <artifactId>simple-addon</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>packaging</artifactId>
+    <artifactId>simple-addon-packaging</artifactId>
     <packaging>pom</packaging>
+    <name>eXo Simple Addon :: Extension Packaging</name>
+    <description>eXo Simple Addon packaging for installation</description>
 
     <dependencies>
         <dependency>
             <groupId>org.exoplatform.samples</groupId>
-            <artifactId>helloportlet</artifactId>
+            <artifactId>simple-addon-webapp</artifactId>
             <type>war</type>
             <scope>provided</scope>
         </dependency>
@@ -33,7 +35,7 @@
                 </includes>
             </resource>
         </resources>
-        <finalName>myaddon</finalName>
+        <finalName>simpleaddon</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

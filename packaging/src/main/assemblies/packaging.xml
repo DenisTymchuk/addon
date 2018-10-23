@@ -8,9 +8,9 @@
         <dependencySet>
             <outputDirectory>webapps</outputDirectory>
             <includes>
-                <include>org.exoplatform.samples:helloportlet:war</include>
+                <include>org.exoplatform.samples:simple-addon-webapp:war</include>
             </includes>
-            <outputFileNameMapping>helloportlet.war</outputFileNameMapping>
+            <outputFileNameMapping>simpleaddon.war</outputFileNameMapping>
             <scope>provided</scope>
             <fileMode>0644</fileMode>
         </dependencySet>

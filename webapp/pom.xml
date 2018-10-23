@@ -5,16 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.exoplatform.samples</groupId>
-        <artifactId>addon-template</artifactId>
+        <artifactId>simple-addon</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>helloportlet</artifactId>
+    <artifactId>simple-addon-webapp</artifactId>
     <packaging>war</packaging>
-
-    <build>
-        <finalName>helloportlet</finalName>
-    </build>
+    <name>eXo Simple Addon :: Extension Webapp</name>
+    <description>eXo Simple Addon web application of portal extension</description>
 
     <dependencies>
         <dependency>
@@ -46,4 +44,30 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.drl</include>
+                    <include>**/*.doc</include>
+                    <include>**/*.xls</include>
+                    <include>**/*.ppt</include>
+                    <include>**/*.txt</include>
+                    <include>**/*.jar</include>
+                    <include>**/*.pom</include>
+                    <include>**/*.sha1</include>
+                    <include>**/*.conf</include>
+                    <include>**/*.gtmpl</include>
+                    <include>**/*.gif</include>
+                    <include>**/*.jpg</include>
+                    <include>**/*.png</include>
+                </includes>
+            </resource>
+        </resources>
+        <finalName>simpleaddon</finalName>
+    </build>
 </project>

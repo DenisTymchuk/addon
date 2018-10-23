@@ -10,7 +10,7 @@
 
         <portlet-application>
             <portlet>
-                <application-ref>helloportlet</application-ref>
+                <application-ref>simpleaddon</application-ref>
                 <portlet-ref>Hello</portlet-ref>
             </portlet>
             <title>Hello</title>
