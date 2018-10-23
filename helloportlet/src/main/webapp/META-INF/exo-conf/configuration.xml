@@ -21,9 +21,6 @@
                         <field name="dependencies">
                             <collection type="java.util.ArrayList">
                                 <value>
-                                    <string>myextension</string>
-                                </value>
-                                <value>
                                     <string>helloportlet</string>
                                 </value>
                             </collection>

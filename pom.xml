@@ -17,13 +17,12 @@
 
     <modules>
         <module>helloportlet</module>
-        <module>extension</module>
         <module>packaging</module>
     </modules>
 
     <properties>
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.exoplatform.depmgt.version>13</org.exoplatform.depmgt.version>
         <platform.version>5.1.0-RC12</platform.version>
@@ -48,12 +47,6 @@
             <dependency>
                 <groupId>org.exoplatform.samples</groupId>
                 <artifactId>helloportlet</artifactId>
-                <version>1.0</version>
-                <type>war</type>
-            </dependency>
-            <dependency>
-                <groupId>org.exoplatform.samples</groupId>
-                <artifactId>myextension</artifactId>
                 <version>1.0</version>
                 <type>war</type>
             </dependency>

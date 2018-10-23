@@ -19,12 +19,6 @@
             <type>war</type>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.exoplatform.samples</groupId>
-            <artifactId>myextension</artifactId>
-            <type>war</type>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>

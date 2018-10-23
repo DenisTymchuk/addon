@@ -8,30 +8,11 @@
         <dependencySet>
             <outputDirectory>webapps</outputDirectory>
             <includes>
-                <include>org.exoplatform.samples:myextension:war</include>
-            </includes>
-            <outputFileNameMapping>myextension.war</outputFileNameMapping>
-            <scope>provided</scope>
-            <fileMode>0644</fileMode>
-        </dependencySet>
-        <dependencySet>
-            <outputDirectory>webapps</outputDirectory>
-            <includes>
                 <include>org.exoplatform.samples:helloportlet:war</include>
             </includes>
             <outputFileNameMapping>helloportlet.war</outputFileNameMapping>
             <scope>provided</scope>
             <fileMode>0644</fileMode>
-        </dependencySet><!--
-        <dependencySet>
-            &lt;!&ndash; Dependencies for deployment into eXo Platform instance &ndash;&gt;
-            <outputDirectory>lib</outputDirectory>
-            <useTransitiveDependencies>true</useTransitiveDependencies>
-            <includes>
-                <include>org.exoplatform.addons.gamification:gamification-services*:jar</include>
-            </includes>
-            <scope>provided</scope>
-            <fileMode>0644</fileMode>
-        </dependencySet>-->
+        </dependencySet>
     </dependencySets>
 </assembly>
