@@ -11,6 +11,14 @@
         <overwrite>true</overwrite>
     </portlet-skin>
 
+    <portlet-skin>
+        <application-name>simpleaddon</application-name>
+        <portlet-name>Hello</portlet-name>
+        <skin-name>Enterprise</skin-name>
+        <css-path>/skin/simpleaddon-enterprise.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
     <module>
         <name>helloPortlet</name>
         <script>
