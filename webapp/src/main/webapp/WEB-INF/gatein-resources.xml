@@ -3,6 +3,14 @@
                   xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_resources_1_3 http://www.gatein.org/xml/ns/gatein_resources_1_3"
                   xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
 
+    <portlet-skin>
+        <application-name>simpleaddon</application-name>
+        <portlet-name>Hello</portlet-name>
+        <skin-name>Default</skin-name>
+        <css-path>/skin/simpleaddon-default.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
     <module>
         <name>helloPortlet</name>
         <script>
