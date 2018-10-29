@@ -1,7 +1,5 @@
 package com.acme.samples;
 
-import org.exoplatform.webui.application.WebuiRequestContext;
-
 import java.io.IOException;
 
 import javax.portlet.GenericPortlet;
