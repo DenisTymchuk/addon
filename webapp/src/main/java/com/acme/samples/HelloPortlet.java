@@ -1,6 +1,5 @@
 package com.acme.samples;
 
-import org.exoplatform.web.application.JavascriptManager;
 import org.exoplatform.webui.application.WebuiRequestContext;
 
 import java.io.IOException;
@@ -16,11 +15,7 @@ public class HelloPortlet extends GenericPortlet {
 
 	@RenderMode(name = "view")
 	public void view(RenderRequest request, RenderResponse response) throws IOException, PortletException {
-		PortletRequestDispatcher prDispatcher = getPortletContext().getRequestDispatcher("/jsp/hello.jsp");
+		PortletRequestDispatcher prDispatcher = getPortletContext().getRequestDispatcher("/jsp/start/index.jsp");
 		prDispatcher.include(request, response);
-
-		JavascriptManager js = ((WebuiRequestContext) WebuiRequestContext.getCurrentInstance()).getJavascriptManager();
-		js.require("SHARED/helloPortlet", "helloPortlet")
-				.addScripts("helloPortlet.init();");
 	}
 }

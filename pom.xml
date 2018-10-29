@@ -50,6 +50,33 @@
                 <version>1.0</version>
                 <type>war</type>
             </dependency>
+            <dependency>
+                <groupId>org.juzu</groupId>
+                <artifactId>juzu-core</artifactId>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.juzu</groupId>
+                <artifactId>juzu-core</artifactId>
+                <classifier>sources</classifier>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.juzu</groupId>
+                <artifactId>juzu-plugins-less</artifactId>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.juzu</groupId>
+                <artifactId>juzu-plugins-portlet</artifactId>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.juzu</groupId>
+                <artifactId>juzu-plugins-upload</artifactId>
+                <scope>provided</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
